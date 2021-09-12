@@ -14,15 +14,13 @@ int main() {
   cin >> rectLength;
   //Store the width and length of the rectangle in the box object
   box.setWidth(rectWidth);
-  box.setLength(rectWidth);
+  box.setLength(rectLength);
 
   // Display the rectangle's data.
   cout << "Here is the rectangle's data: \n";
   cout << "Width: " << box.getWidth() << endl;
   cout << "Length: " << box.getLength() << endl;
   cout << "Area: " << box.getArea() << endl;
-
-  rectWidth = 0;
-  rectLength = 0;
+  
   return 0;
 }
