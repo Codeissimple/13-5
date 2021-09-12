@@ -39,10 +39,10 @@ void Rectangle::setLength(double len)
 
 double Rectangle::getWidth() const
 {
-  
+  return width;
 }
 
 double Rectangle::getLength() const
 {
-  
+  return length;
 }
