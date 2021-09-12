@@ -46,3 +46,8 @@ double Rectangle::getLength() const
 {
   return length;
 }
+
+double Rectangle::getArea() const
+{
+  return length * width;
+}

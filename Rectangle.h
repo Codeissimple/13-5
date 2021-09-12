@@ -12,6 +12,6 @@ class Rectangle
     void setLength(double);
     double getWidth() const;
     double getLength() const;
-    double getArea() const
+    double getArea() const;
 };
 #endif
