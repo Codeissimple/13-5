@@ -10,8 +10,13 @@ class Rectangle
   public:
     void setWidth(double);
     void setLength(double);
-    double getWidth() const;
-    double getLength() const;
-    double getArea() const;
+
+    double getWidth() const
+      { return width; }
+    double getLength() const
+      { return length; }
+    double getArea() const
+      { return width * length; }
+    
 };
 #endif

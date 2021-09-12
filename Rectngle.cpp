@@ -5,16 +5,7 @@
 #include <cstdlib>      //Needed for the exit function
 using namespace std;
 
-//The constructor accespts arguments for width and length
-/*
-Rectangle::Rectangle(double w, double len)
-{
-  width = w;
-  length = len;
-}
-*/
-//setWidth sets the value of the member variable width
-
+//Sets the value of the member variable width
 void Rectangle::setWidth(double w)
 {
   if (w >=0)
@@ -25,7 +16,7 @@ void Rectangle::setWidth(double w)
     exit(EXIT_FAILURE);
   }
 }
-
+//Sets the value of the member variable length
 void Rectangle::setLength(double len)
 {
   if (len >=0 )
@@ -35,19 +26,4 @@ void Rectangle::setLength(double len)
     cout << "Invalid length\n";
     exit(EXIT_FAILURE);
   }
-}
-
-double Rectangle::getWidth() const
-{
-  return width;
-}
-
-double Rectangle::getLength() const
-{
-  return length;
-}
-
-double Rectangle::getArea() const
-{
-  return length * width;
 }

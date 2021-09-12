@@ -22,5 +22,7 @@ int main() {
   cout << "Length: " << box.getLength() << endl;
   cout << "Area: " << box.getArea() << endl;
 
+  rectWidth = 0;
+  rectLength = 0;
   return 0;
 }
